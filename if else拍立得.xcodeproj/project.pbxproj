@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184EE4C926444ACC00213333 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EE4C826444ACC00213333 /* PhotoViewController.swift */; };
 		18663107263E79D300B96DCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18663106263E79D300B96DCA /* AppDelegate.swift */; };
 		18663109263E79D300B96DCA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18663108263E79D300B96DCA /* SceneDelegate.swift */; };
 		1866310B263E79D300B96DCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866310A263E79D300B96DCA /* ViewController.swift */; };
 		1866310E263E79D300B96DCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1866310C263E79D300B96DCA /* Main.storyboard */; };
 		18663110263E79D400B96DCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1866310F263E79D400B96DCA /* Assets.xcassets */; };
 		18663113263E79D400B96DCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18663111263E79D400B96DCA /* LaunchScreen.storyboard */; };
+		9A448AC626438C8C00034B36 /* hanzipen-tc-regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A448AC526438C8C00034B36 /* hanzipen-tc-regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184EE4C826444ACC00213333 /* PhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		18663103263E79D300B96DCA /* if else拍立得.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "if else拍立得.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18663106263E79D300B96DCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18663108263E79D300B96DCA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		1866310F263E79D400B96DCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18663112263E79D400B96DCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18663114263E79D400B96DCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A448AC526438C8C00034B36 /* hanzipen-tc-regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hanzipen-tc-regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				18663106263E79D300B96DCA /* AppDelegate.swift */,
 				18663108263E79D300B96DCA /* SceneDelegate.swift */,
 				1866310A263E79D300B96DCA /* ViewController.swift */,
+				184EE4C826444ACC00213333 /* PhotoViewController.swift */,
 				1866310C263E79D300B96DCA /* Main.storyboard */,
 				1866310F263E79D400B96DCA /* Assets.xcassets */,
 				18663111263E79D400B96DCA /* LaunchScreen.storyboard */,
 				18663114263E79D400B96DCA /* Info.plist */,
+				9A448AC526438C8C00034B36 /* hanzipen-tc-regular.otf */,
 			);
 			path = "if else拍立得";
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				18663113263E79D400B96DCA /* LaunchScreen.storyboard in Resources */,
 				18663110263E79D400B96DCA /* Assets.xcassets in Resources */,
+				9A448AC626438C8C00034B36 /* hanzipen-tc-regular.otf in Resources */,
 				1866310E263E79D300B96DCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1866310B263E79D300B96DCA /* ViewController.swift in Sources */,
+				184EE4C926444ACC00213333 /* PhotoViewController.swift in Sources */,
 				18663107263E79D300B96DCA /* AppDelegate.swift in Sources */,
 				18663109263E79D300B96DCA /* SceneDelegate.swift in Sources */,
 			);
